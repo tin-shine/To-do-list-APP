@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mylist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:6:5-65:19
+12        android:allowBackup="true"
+12-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:11:9-35
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:12:9-40
+20        <activity android:name="com.example.mylist.data.model.Resume" />
+20-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:14:9-55
+20-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:14:19-52
+21
+22        <service
+22-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:16:9-19:40
+23            android:name="com.example.mylist.Service.MyService"
+23-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:17:13-46
+24            android:enabled="true"
+24-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:18:13-35
+25            android:exported="false" />
+25-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:19:13-37
+26
+27        <activity android:name="com.example.mylist.ui.login.RegisterActivity" />
+27-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:21:9-63
+27-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:21:19-60
+28        <activity
+28-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:22:9-26:54
+29            android:name="com.example.mylist.Activities.FullScreenActivity"
+29-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:23:13-58
+30            android:configChanges="orientation|keyboardHidden|screenSize"
+30-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:24:13-74
+31            android:label="@string/title_activity_fullscreen"
+31-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:25:13-62
+32            android:theme="@style/FullscreenTheme" />
+32-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:26:13-51
+33        <activity
+33-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:27:9-35:20
+34            android:name="com.example.mylist.Activities.NewItemActivity"
+34-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:28:13-55
+35            android:theme="@style/AppTheme.NoActionBar" >
+35-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:29:13-56
+36            <intent-filter>
+36-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:30:13-34:29
+37                <action android:name="android.intent.action.NEWITEMACTIVITY" />
+37-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:31:17-80
+37-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:31:25-77
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:17-77
+39-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:36:9-44:20
+43            android:name="com.example.mylist.Activities.SplashActivity"
+43-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:37:13-54
+44            android:theme="@style/AppTheme.NoActionBar" >
+44-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:38:13-56
+45            <intent-filter>
+45-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:39:13-43:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:40:17-69
+46-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:40:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:17-77
+48-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:45:9-54:20
+52            android:name="com.example.mylist.ui.login.LoginActivity"
+52-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:46:13-51
+53            android:label="@string/title_activity_login"
+53-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:47:13-57
+54            android:theme="@style/AppTheme.NoActionBar" >
+54-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:48:13-56
+55            <intent-filter>
+55-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:49:13-53:29
+56                <action android:name="android.intent.action.LOGINACTIVITY" />
+56-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:50:17-78
+56-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:50:25-75
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:17-77
+58-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:55:9-64:20
+62            android:name="com.example.mylist.Activities.MainActivity"
+62-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:56:13-52
+63            android:label="@string/app_name"
+63-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:57:13-45
+64            android:theme="@style/AppTheme.NoActionBar" >
+64-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:58:13-56
+65            <intent-filter>
+65-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:59:13-63:29
+66                <action android:name="android.intent.action.MAINACTIVITY" />
+66-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:60:17-77
+66-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:60:25-74
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:17-77
+68-->C:\Users\tinshine\MyFiles\CodeFiles\Android\MyList_v3.2.2\app\src\main\AndroidManifest.xml:33:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <provider
+72-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+73            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+74            android:authorities="com.example.mylist.lifecycle-process"
+74-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+75            android:exported="false"
+75-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+76            android:multiprocess="true" />
+76-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\tinshine\.gradle\caches\transforms-2\files-2.1\55580b0ab45b69249933074462ab11c2\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+77    </application>
+78
+79</manifest>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data.model.Resume">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/head_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/defaultimage"/>
+
+        <TextView
+            android:id="@+id/modify_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="30sp"
+            android:text="*修改头像："
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/select_header_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:entries="@array/headimage"
+            android:fontFamily="monospace"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/nick_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="10sp"
+            android:text="*昵称："
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/personal_usrname"
+            android:layout_width="360sp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5sp"
+            android:ems="10"
+            android:hint="用户名"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/email_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="10sp"
+            android:text="*邮箱："
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/personal_email"
+            android:layout_width="360sp"
+            android:layout_height="40sp"
+            android:focusable="false"
+            android:hint="用户邮箱"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5sp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="10sp"
+            android:text="*个性签名："
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/personal_slogan"
+            android:layout_width="360sp"
+            android:layout_height="160dp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:ems="20"
+            android:hint="@string/default_slogan" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:text="保存" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

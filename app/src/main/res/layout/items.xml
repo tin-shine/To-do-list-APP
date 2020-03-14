@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    >
+
+    <CheckBox
+        android:id="@+id/box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtItemName"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Item name"
+        android:textAlignment="textStart"
+        android:textColor="#ce000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtContext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtItemName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="context"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="17sp" />
+
+
+    <TextView
+        android:id="@+id/txtRemindTime"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/txtContext"
+        android:text="Remindtime"
+        android:textAlignment="textStart"
+        android:textColor="#66cdaa"
+        android:textSize="13sp" />
+</RelativeLayout>

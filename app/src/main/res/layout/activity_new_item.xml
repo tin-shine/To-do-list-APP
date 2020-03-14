@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/left"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/ic_left_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="添加"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25sp"
+            android:fontFamily="monospace"
+            android:text="名称"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="130sp"
+            android:layout_height="1dp"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="#444" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/item_name"
+                    android:layout_width="250sp"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:fontFamily="monospace"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="Item Name"
+                    android:inputType="textNoSuggestions|textLongMessage" />
+
+                <EditText
+                    android:id="@+id/item_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/button_shape"
+                    android:fontFamily="monospace"
+                    android:gravity="left"
+                    android:hint=" Description" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="monospace"
+                    android:text="提醒时间"
+                    android:textAllCaps="false"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TableRow
+                    android:layout_width="130sp"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:background="#444" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/item_deadline_date"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="30sp"
+                        android:background="@drawable/calendar" />
+
+                    <TextView
+                        android:id="@+id/select_deadline_date"
+                        android:layout_marginTop="5sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:fontFamily="monospace"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/item_deadline_time"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10sp"
+                        android:layout_marginLeft="30sp"
+                        android:layout_marginBottom="15sp"
+                        android:background="@drawable/clock" />
+
+                    <TextView
+                        android:id="@+id/select_deadline_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:fontFamily="monospace"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/add_item_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/colorAccent"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="添加"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black_overlay" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

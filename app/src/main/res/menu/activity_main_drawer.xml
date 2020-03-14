@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- 在这里将不用的侧边栏条目注释掉，在MainActivity.java第87行开始的ifelse语句中去掉相应判断语句即可-->
+    <item
+        android:id="@+id/resume"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/personal_resume"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="@string/menu_about" />
+    <item
+        android:id="@+id/destory"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/menu_destroy" />
+    </group>
+
+<!--    <item android:title="communicate">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_menu_share"-->
+<!--                android:title="@string/menu_share" />-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

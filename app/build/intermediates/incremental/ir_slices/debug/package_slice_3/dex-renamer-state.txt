@@ -1,0 +1,4 @@
+#Mon Oct 21 16:49:38 CST 2019
+base.0=C\:\\Users\\tinshine\\MyFiles\\CodeFiles\\Android\\AndroidStudioProjects\\MyList_wsp\\MyList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

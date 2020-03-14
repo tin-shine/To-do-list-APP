@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="headimage">
+
+        <item>默认头像</item>
+        <item>风一般的男子</item>
+        <item>蓝发少女</item>
+        <item>帅气大姐</item>
+        <item>成熟大哥</item>
+        <item>护士姐姐</item>
+        <item>三毛</item>
+</string-array>
+</resources>
